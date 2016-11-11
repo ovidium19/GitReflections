@@ -1,0 +1,4 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: When you initialize it, a hidden directory called .git is created within your directory. This is where all git metadata is stored. 
+You cannot use git version control without initializing the repository.

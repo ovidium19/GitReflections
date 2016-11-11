@@ -1,0 +1,34 @@
+I have learned a lot in this lesson. Finding differences between large files can be so tedious if done manually, however tools that come with any OS can help spot the differences easily.
+
+I have also learned how to  use Git, installed Git on my Windows and also installed Sublime Text 3, which seems to be a great editor for future use.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Any coding exercise can be broken down in steps. You start by doing step 1, then step 2, etc. It is good to have version control to track all your steps. It is very easy to go to previous ideas you had. Let's say an idea you had branched into several ideas, from which you only chose 1, tried it, and it ended u being to clunky. Then you can go back to the version where u took that path and start writing another idea.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Pros: You can choose exactly when to commit so it becomes easier to commit after each logical change to your file.
+
+   Cons: You can forget to commit, or commit too late. Both these scenarios completely negate the concept of version-control.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ I think Git treats a repository as a project, considering that all files belonging to that directory are linked together,therefore when you commit a file, you actually commit the entire directory.
+
+ Google Docs might treat each file as its own directory, meaning that a google doc file is treated as being independent and have no links to other files.
+
+ Q: How can you use the commands git log and git diff to view the history of files?
+
+ A: git log -- Allows you to view all different versions of the repository(all different commits, each commit has a unique id) 
+ if u use --stat, it will also show which files were changed, how many insertions and deletions were made with each commit
+
+    git diff -- takes two parameters(two unique commit IDs) shows all differences between those two commits(insertions, deletions etc.)
+
+ Q: How might using version control make you more confident to make changes that could break something?
+
+ A: It is a great tool that allows you to experiment. Knowing that you have a checkpoint saved in your file means you can do anything with it and still be able to go back anytime, meaning you are free to play around and bugs will not ruin the entire project.
+
+ Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+ A: I will be integrating Git into my current projects and start new projects using Git. It is a great tool for work done in teams as we can all work on the same project, creating different versions and check each other's contributions.
