@@ -2,3 +2,7 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 
 A: When you initialize it, a hidden directory called .git is created within your directory. This is where all git metadata is stored. 
 You cannot use git version control without initializing the repository.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is a workplace. You add all the files that you want to be included in your next commit. This has great value for splitting up work.If you have a team of 2, and one person is working on a group of files, while the other one works on a different group of files, then using the staging area they can split their work on the same repository.
