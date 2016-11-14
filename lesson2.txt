@@ -6,3 +6,7 @@ You cannot use git version control without initializing the repository.
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: The staging area is a workplace. You add all the files that you want to be included in your next commit. This has great value for splitting up work.If you have a team of 2, and one person is working on a group of files, while the other one works on a different group of files, then using the staging area they can split their work on the same repository.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: You decide how many files you want to add to the staging area. So if you have to make multiple logic changes to multiple files, you can use the staging area to make sure you only commit one at a time. Using git diff after adding a file to the staging area will reassure you that you are only making one logical change.
