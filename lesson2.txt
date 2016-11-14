@@ -17,3 +17,7 @@ A: Branches help in several siuations:
 	1 - When you want to experiment with the files without altering the main branch
 
 	2 - When you want to split the work between team members, if the work is individual.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The resulted file will include all changes to it that show on both branches. The result is like a reunion of all lines in the files, except the ones that have been deleted in comparison to the branched file.
