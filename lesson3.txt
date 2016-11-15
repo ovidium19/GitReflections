@@ -2,3 +2,7 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 A: It would be a good choice to do this if you want to share your work with other people, if you want to backup your work and have it saved somewehere
 else than your local hard drive, when collaborating with other people on the same project.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: When you are experimenting with your file. You dont want GitHub to save failed experiments, you want to manually save your experiment when it works. So automatic pushes are not helpful in this situation.
