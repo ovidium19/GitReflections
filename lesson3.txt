@@ -18,3 +18,8 @@ A: Forks - When you want to clone a github repository into your own github. This
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: This is an issue when you are collaborating with other people on the same repository. You would want to know what the last known state of the repository was to you so that you can easily spot the new updates brought in by your other collaboraters. Hence, you can get up to speed with the updates, or you can work on your version if you decide the updates are not necessary.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: We would use some form of social media to communicate, maybe form a group and post all updates there. We could also meet in person and discuss all different ideas we have. It would be harder because small text differences in rly big files are hard to see and a person could not make a change without the approval of other team memberse because that would alter the integrity of the project. 
+It would be easier to experiment, and for people to contribute. 
