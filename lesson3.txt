@@ -6,3 +6,11 @@ else than your local hard drive, when collaborating with other people on the sam
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A: When you are experimenting with your file. You dont want GitHub to save failed experiments, you want to manually save your experiment when it works. So automatic pushes are not helpful in this situation.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: Forks - When you want to clone a github repository into your own github. This is useful when trying to edit a github repository where you have no permission to do so.
+
+	Clone - When you want to download a github repository into your local repository. This can also be used to move repositories in your local hard drive.
+
+	Branch - Works on one repository. Create a new branch to experiment with the files without altering the master branch. Useful when trying out implementing new features, when separating work in a team, etc.
